@@ -6,7 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import cors from "cors";
 
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(cors());
 const server = http.createServer(app);
